@@ -4,6 +4,7 @@ import ContextButtonComponent from "./components/context-concept/button";
 import ContextTextComponent from "./components/context-concept/text";
 import FunctionalComponent from "./components/functional-component";
 import ProductList from "./components/products";
+import UseReducerExample from "./components/use-reducer-example";
 import Users from "./components/users";
 // import ProductList from "./components/ProductList";
 
@@ -21,8 +22,9 @@ function App() {
         city="Ajmer"
       /> */}
       {/* <Users /> */}
-      <ContextButtonComponent />
-      <ContextTextComponent />
+      {/* <ContextButtonComponent />
+      <ContextTextComponent /> */}
+      <UseReducerExample />
     </div>
   );
 }

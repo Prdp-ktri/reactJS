@@ -8,7 +8,7 @@ function ContextTextComponent() {
     <h1
       style={{
         fontSize: theme === "light" ? "50px" : "100px",
-        backgroundColor: theme === "light" ? "white" : "black",
+        backgroundColor: theme === "light" ? "gray" : "black",
         color: theme === "light" ? "blue" : "yellow",
       }}
     >
