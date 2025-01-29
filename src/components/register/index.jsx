@@ -42,18 +42,17 @@ function RegisterComponent() {
 //     { label: "Password", type: "password", name: "password" },
 //   ];
 
-//   // return (
-//   //   <div>
-//   //     {registerFormElements.map((element) => (
-//   //       <input
-//   //         key={element.name}
-//   //         type={element.type}
-//   //         placeholder={element.label}
-//   //         name={element.name}
-//   //       />
-//   //     ))}
-//   //   </div>
-//   // );
-// }
+  // return (
+  //   <div>
+  //     {registerFormElements.map((element) => (
+  //       <input
+  //         key={element.name}
+  //         type={element.type}
+  //         placeholder={element.label}
+  //         name={element.name}
+  //       />
+  //     ))}
+  //   </div>
+  // );
 
 export default RegisterComponent;

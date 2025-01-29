@@ -10,8 +10,6 @@ const initialFormData = {
 function LoginComponent() {
   const [loginFormData, setLoginFormData] = useState(initialFormData);
 
-  console.log(loginFormData, "loginFormData");
-
   function onHandleSubmit(event) {
     event.preventDefault();
     console.log(loginFormData, "loginFormData");
